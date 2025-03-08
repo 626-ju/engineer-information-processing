@@ -1,3 +1,25 @@
 ※C※
+
+  > 포인터 문제 좀 더 풀어보기
+  > %s 주소값 받음. %c,%d 값을 받음
+
+
 ※JAVA※
+
+ >접근제어자 알아두기 
+     public : 자유롭게 접근
+     protected : 상속 관계, 같은 패키지 내에서 접근
+     default : 같은 패키지 내부에서
+     private : 같은 클래스 내부에서 (정보은닉)
+
+ >String => 값 없으면 null로 초기화
+  int => 0으로 초기화
+
+ > Sys.out.println(인스턴스 이름)
+    ==> 자동으로 인스턴스.toString() 호출
+
+
+
+
+
 ※Python※
