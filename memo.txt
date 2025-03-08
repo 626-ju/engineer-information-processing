@@ -46,6 +46,29 @@
      ex )  *p+2 같은 형태 => (p가 가리키는 곳의 값이 'A'일 때) +2를 하니 65+2 == 67. (%c로 출력시 'C')
 
 
+  >> 구조체의 크기
+     padding bit가 적용된다,
+      ex)
+          struct Student {
+              char grade;          =>   구조체 내부에 가장큰 자료형의 크기를 따라감      1 : char   => 총 8byte
+              int  age;                                                       4 : int
+          }                          
+
+           struct Teacher {                                                  1
+              char grade;                                                    1
+              char subject        =>                                         패딩  => 총 8 Byte 
+              int  age;                                                      패딩 
+            }                                                                4 
+
+
+            struct Classroom{                                          50 : char[50]
+              char name[50]       =>                                   패딩          => 총 56 Byte
+              int personnel                                            패딩            
+           }                                                           4  :int 
+
+
+
+
 
 ※JAVA※
 
