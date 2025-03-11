@@ -133,4 +133,9 @@
      => implements를 통해 존재하는 '모든' 추상메서드를 구현 후 사용 가능                                                                           ==> int age=4; 같이 되어 있느건 public static final생략된거래...ㄷㄷ
                                                                                                                                               ===> int age; 이런 형태 불가능
 
+
+
+  >>  str1.compareTO(str2)  str1=Java ,str=java일 때 -32라는 값이 나옴(떨어져있는 거리 만큼)//같으면 0 반환
+                                  
+
 ※Python※
