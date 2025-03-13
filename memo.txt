@@ -214,7 +214,7 @@
 
   >> ⭐️⭐️⭐️⭐️ 자료구조 종류
       1) List : 배열하고 비슷해보이는데 c, java의 배열과 차이로는 데이터 상관 없이 담을 수 있음 // [  ]
-      2) Dictionary : key-value 쌍. 키 중복x 키에 문자열만 가능=>js object랑 비슷한 느낌(itertator아님) // { }
+      2) Dictionary : key-value 쌍. 키 중복x =>js object랑 비슷한 느낌(itertator아님) // { }
           print(딕셔너리이름.keys()); //이런 형태로 출력시 
           => dict_keys(["키이름1","키이름2"]) 형태로 출력
       3) Tuple : 순서o, 변형불가능(imutable), *중복가능(set과 가장 다른 점) // ( )
